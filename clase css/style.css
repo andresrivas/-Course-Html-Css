@@ -1,0 +1,28 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0; 
+    background-color: aquamarine;
+}
+
+.main-nav_item{
+    display: inline-block;
+}
+
+.main-nav_item a{
+color: blue;
+padding: 5px;
+border-radius: 2p x;
+text-decoration: none;
+}
+.main-nav_item a:hover{
+color:rgb(233, 38, 145);
+}
+
+.main-nav_item a:active {
+    color: rgb(19, 17, 17);
+}
+
+.main-nav_item a::after{
+    content: " | ";
+}
